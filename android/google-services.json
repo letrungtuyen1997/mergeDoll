@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "709316699778",
+    "firebase_url": "https://jk-wonder.firebaseio.com",
+    "project_id": "jk-wonder",
+    "storage_bucket": "jk-wonder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709316699778:android:bf5437914892b0089d769b",
+        "android_client_info": {
+          "package_name": "jk.wonder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709316699778-k3636po2ks758nt50gkhi541p3m9joni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZOosia5Z1Vv3oolW5Z6VXygQKYMMnIl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709316699778-k3636po2ks758nt50gkhi541p3m9joni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

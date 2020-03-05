@@ -1,0 +1,13 @@
+
+ske2.png
+size: 120,198
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2-1
+  rotate: false
+  xy: 0, 0
+  size: 120, 198
+  orig: 120, 198
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+onggia.png
+size: 453,242
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 0, 5
+  size: 232, 237
+  orig: 232, 237
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 232, 87
+  size: 221, 155
+  orig: 221, 155
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 326, 1
+  size: 39, 86
+  orig: 39, 86
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: true
+  xy: 232, 0
+  size: 87, 94
+  orig: 87, 94
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 365, 34
+  size: 67, 53
+  orig: 67, 53
+  offset: 0, 0
+  index: -1

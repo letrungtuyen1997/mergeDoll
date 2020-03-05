@@ -1,0 +1,125 @@
+
+atlas.png
+size: 1024,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bau
+  rotate: false
+  xy: 2, 2
+  size: 125, 65
+  orig: 125, 65
+  offset: 0, 0
+  index: -1
+bauImg
+  rotate: false
+  xy: 724, 1692
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 754
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+ca
+  rotate: false
+  xy: 512, 229
+  size: 81, 55
+  orig: 81, 55
+  offset: 0, 0
+  index: -1
+caImg
+  rotate: false
+  xy: 724, 1004
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+capNhatBtn
+  rotate: false
+  xy: 2, 69
+  size: 341, 114
+  orig: 341, 114
+  offset: 0, 0
+  index: -1
+cua
+  rotate: false
+  xy: 896, 1999
+  size: 124, 35
+  orig: 124, 35
+  offset: 0, 0
+  index: -1
+cuaImg
+  rotate: false
+  xy: 724, 1348
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+ga
+  rotate: false
+  xy: 896, 1928
+  size: 82, 69
+  orig: 82, 69
+  offset: 0, 0
+  index: -1
+gaImg
+  rotate: false
+  xy: 724, 1864
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+header
+  rotate: false
+  xy: 2, 286
+  size: 720, 138
+  orig: 720, 138
+  offset: 0, 0
+  index: -1
+luoi
+  rotate: false
+  xy: 2, 426
+  size: 720, 326
+  orig: 720, 326
+  offset: 0, 0
+  index: -1
+nai
+  rotate: false
+  xy: 724, 952
+  size: 102, 50
+  orig: 102, 50
+  offset: 0, 0
+  index: -1
+naiImg
+  rotate: false
+  xy: 724, 1176
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+tom
+  rotate: false
+  xy: 371, 228
+  size: 139, 56
+  orig: 139, 56
+  offset: 0, 0
+  index: -1
+tomImg
+  rotate: false
+  xy: 724, 1520
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+xoaHetBtn
+  rotate: false
+  xy: 2, 185
+  size: 367, 99
+  orig: 367, 99
+  offset: 0, 0
+  index: -1

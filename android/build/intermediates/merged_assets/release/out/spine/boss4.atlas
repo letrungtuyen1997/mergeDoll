@@ -1,0 +1,118 @@
+
+boss4.png
+size: 1318,517
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 1196, 354
+  size: 41, 101
+  orig: 41, 101
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 0, 0
+  size: 16, 42
+  orig: 16, 42
+  offset: 0, 0
+  index: -1
+Group 63 copy
+  rotate: true
+  xy: 932, 46
+  size: 70, 140
+  orig: 70, 140
+  offset: 0, 0
+  index: -1
+Group 63 copy 4
+  rotate: false
+  xy: 390, 5
+  size: 304, 301
+  orig: 304, 301
+  offset: 0, 0
+  index: -1
+Layer 203
+  rotate: false
+  xy: 694, 0
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+Layer 593
+  rotate: false
+  xy: 1227, 39
+  size: 91, 134
+  orig: 91, 134
+  offset: 0, 0
+  index: -1
+arm
+  rotate: false
+  xy: 932, 116
+  size: 157, 229
+  orig: 157, 229
+  offset: 0, 0
+  index: -1
+blast
+  rotate: true
+  xy: 694, 48
+  size: 258, 238
+  orig: 258, 238
+  offset: 0, 0
+  index: -1
+ear copy
+  rotate: false
+  xy: 390, 306
+  size: 427, 211
+  orig: 427, 211
+  offset: 0, 0
+  index: -1
+hand
+  rotate: true
+  xy: 1089, 173
+  size: 172, 168
+  orig: 172, 168
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 0, 16
+  size: 390, 501
+  orig: 390, 501
+  offset: 0, 0
+  index: -1
+mat1
+  rotate: false
+  xy: 1196, 395
+  size: 122, 122
+  orig: 122, 122
+  offset: 0, 0
+  index: -1
+mat2
+  rotate: false
+  xy: 742, 3
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+mat3
+  rotate: false
+  xy: 1089, 35
+  size: 138, 138
+  orig: 138, 138
+  offset: 0, 0
+  index: -1
+mat4
+  rotate: false
+  xy: 42, 0
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+mouth copy
+  rotate: false
+  xy: 817, 345
+  size: 379, 172
+  orig: 379, 172
+  offset: 0, 0
+  index: -1

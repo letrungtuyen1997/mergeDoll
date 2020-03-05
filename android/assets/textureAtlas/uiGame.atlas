@@ -1,0 +1,732 @@
+
+uiGame.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+10
+  rotate: false
+  xy: 1446, 827
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 1611, 827
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+Landplot
+  rotate: false
+  xy: 1036, 28
+  size: 160, 83
+  orig: 160, 83
+  offset: 0, 0
+  index: -1
+Lock
+  rotate: false
+  xy: 1724, 608
+  size: 48, 53
+  orig: 48, 53
+  offset: 0, 0
+  index: -1
+Table2
+  rotate: false
+  xy: 2, 52
+  size: 602, 711
+  orig: 602, 711
+  offset: 0, 0
+  index: -1
+avt11
+  rotate: false
+  xy: 1774, 377
+  size: 250, 251
+  orig: 250, 251
+  offset: 0, 0
+  index: -1
+avt12
+  rotate: false
+  xy: 1446, 1657
+  size: 251, 251
+  orig: 251, 251
+  offset: 0, 0
+  index: -1
+avt13
+  rotate: false
+  xy: 1776, 630
+  size: 250, 251
+  orig: 250, 251
+  offset: 0, 0
+  index: -1
+avt15
+  rotate: false
+  xy: 1776, 1136
+  size: 250, 251
+  orig: 250, 251
+  offset: 0, 0
+  index: -1
+avt5
+  rotate: false
+  xy: 1446, 1151
+  size: 250, 251
+  orig: 250, 251
+  offset: 0, 0
+  index: -1
+avt6
+  rotate: false
+  xy: 1446, 1404
+  size: 250, 251
+  orig: 250, 251
+  offset: 0, 0
+  index: -1
+avt9
+  rotate: false
+  xy: 1776, 883
+  size: 250, 251
+  orig: 250, 251
+  offset: 0, 0
+  index: -1
+bg1
+  rotate: false
+  xy: 724, 765
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+bg2
+  rotate: false
+  xy: 2, 765
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+btnBin
+  rotate: false
+  xy: 883, 25
+  size: 66, 86
+  orig: 66, 86
+  offset: 0, 0
+  index: -1
+btnBuyDoll
+  rotate: false
+  xy: 1876, 304
+  size: 168, 71
+  orig: 168, 71
+  offset: 0, 0
+  index: -1
+btnClose
+  rotate: false
+  xy: 1693, 743
+  size: 80, 82
+  orig: 80, 82
+  offset: 0, 0
+  index: -1
+btnDoll
+  rotate: false
+  xy: 1693, 358
+  size: 69, 83
+  orig: 69, 83
+  offset: 0, 0
+  index: -1
+btnFarm
+  rotate: false
+  xy: 646, 21
+  size: 75, 90
+  orig: 75, 90
+  offset: 0, 0
+  index: -1
+btnGetCoin
+  rotate: false
+  xy: 1698, 1309
+  size: 73, 78
+  orig: 73, 78
+  offset: 0, 0
+  index: -1
+btnHistory
+  rotate: false
+  xy: 801, 25
+  size: 80, 86
+  orig: 80, 86
+  offset: 0, 0
+  index: -1
+btnListDoll
+  rotate: false
+  xy: 723, 22
+  size: 76, 89
+  orig: 76, 89
+  offset: 0, 0
+  index: -1
+btnListFlow
+  rotate: false
+  xy: 1198, 28
+  size: 75, 83
+  orig: 75, 83
+  offset: 0, 0
+  index: -1
+btnMission
+  rotate: false
+  xy: 951, 26
+  size: 83, 85
+  orig: 83, 85
+  offset: 0, 0
+  index: -1
+btnRender
+  rotate: false
+  xy: 1408, 7
+  size: 131, 131
+  orig: 131, 131
+  offset: 0, 0
+  index: -1
+btnSetting
+  rotate: false
+  xy: 1876, 11
+  size: 69, 83
+  orig: 69, 83
+  offset: 0, 0
+  index: -1
+btnTutorial
+  rotate: false
+  xy: 1693, 443
+  size: 69, 83
+  orig: 69, 83
+  offset: 0, 0
+  index: -1
+btnWatering
+  rotate: false
+  xy: 1275, 6
+  size: 131, 132
+  orig: 131, 132
+  offset: 0, 0
+  index: -1
+btnX2Coin
+  rotate: false
+  xy: 1947, 12
+  size: 83, 82
+  orig: 83, 82
+  offset: 0, 0
+  index: -1
+btnX2Coin2
+  rotate: false
+  xy: 1446, 768
+  size: 245, 57
+  orig: 245, 57
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 1693, 663
+  size: 79, 78
+  orig: 79, 78
+  offset: 0, 0
+  index: -1
+exp
+  rotate: false
+  xy: 205, 10
+  size: 29, 40
+  orig: 29, 40
+  offset: 0, 0
+  index: -1
+fotter2
+  rotate: false
+  xy: 1446, 1965
+  size: 583, 80
+  orig: 583, 80
+  offset: 0, 0
+  index: -1
+frmAvt
+  rotate: false
+  xy: 1724, 1389
+  size: 278, 294
+  orig: 278, 294
+  offset: 0, 0
+  index: -1
+frmExp
+  rotate: false
+  xy: 1876, 248
+  size: 153, 54
+  orig: 153, 54
+  offset: 0, 0
+  index: -1
+frmInfo2
+  rotate: false
+  xy: 1724, 1685
+  size: 305, 278
+  orig: 305, 278
+  offset: 0, 0
+  index: -1
+frmMonney
+  rotate: false
+  xy: 1446, 1910
+  size: 275, 53
+  orig: 275, 53
+  offset: 0, 0
+  index: -1
+frmStatus
+  rotate: false
+  xy: 1693, 528
+  size: 73, 78
+  orig: 73, 78
+  offset: 0, 0
+  index: -1
+frmWatchAds
+  rotate: false
+  xy: 1258, 140
+  size: 433, 623
+  orig: 433, 623
+  offset: 0, 0
+  index: -1
+ic_Heart
+  rotate: false
+  xy: 112, 10
+  size: 49, 40
+  orig: 49, 40
+  offset: 0, 0
+  index: -1
+labelWatch
+  rotate: false
+  xy: 2, 2
+  size: 64, 48
+  orig: 64, 48
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 606, 113
+  size: 650, 650
+  orig: 650, 650
+  offset: 0, 0
+  index: -1
+lv1
+  rotate: false
+  xy: 1724, 19
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lv2
+  rotate: false
+  xy: 1876, 96
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+sclStatus
+  rotate: false
+  xy: 1698, 1229
+  size: 73, 78
+  orig: 73, 78
+  offset: 0, 0
+  index: -1
+sprayer
+  rotate: false
+  xy: 1606, 23
+  size: 116, 115
+  orig: 116, 115
+  offset: 0, 0
+  index: -1
+tile
+  rotate: false
+  xy: 1693, 171
+  size: 162, 185
+  orig: 162, 185
+  offset: 0, 0
+  index: -1
+timeScl
+  rotate: false
+  xy: 1541, 20
+  size: 63, 118
+  orig: 63, 118
+  offset: 0, 0
+  index: -1
+timerBar
+  rotate: false
+  xy: 606, 15
+  size: 38, 96
+  orig: 38, 96
+  offset: 0, 0
+  index: -1
+turnOff
+  rotate: false
+  xy: 236, 19
+  size: 81, 31
+  orig: 81, 31
+  offset: 0, 0
+  index: -1
+turnOn
+  rotate: false
+  xy: 319, 19
+  size: 81, 31
+  orig: 81, 31
+  offset: 0, 0
+  index: -1
+up_Off
+  rotate: false
+  xy: 68, 9
+  size: 42, 41
+  orig: 42, 41
+  offset: 0, 0
+  index: -1
+up_On
+  rotate: false
+  xy: 163, 10
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+
+uiGame2.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+12
+  rotate: false
+  xy: 254, 152
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 419, 152
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+16
+  rotate: false
+  xy: 584, 152
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+17
+  rotate: false
+  xy: 749, 189
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+19
+  rotate: false
+  xy: 1881, 878
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 1846, 253
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+Table
+  rotate: false
+  xy: 1446, 1202
+  size: 540, 844
+  orig: 540, 844
+  offset: 0, 0
+  index: -1
+avt17
+  rotate: false
+  xy: 724, 513
+  size: 250, 251
+  orig: 250, 251
+  offset: 0, 0
+  index: -1
+avt3
+  rotate: false
+  xy: 2, 224
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+bg3
+  rotate: false
+  xy: 2, 766
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+btnDone
+  rotate: false
+  xy: 2, 153
+  size: 212, 69
+  orig: 212, 69
+  offset: 0, 0
+  index: -1
+btnWatch
+  rotate: false
+  xy: 749, 118
+  size: 212, 69
+  orig: 212, 69
+  offset: 0, 0
+  index: -1
+footer
+  rotate: false
+  xy: 2, 476
+  size: 720, 288
+  orig: 720, 288
+  offset: 0, 0
+  index: -1
+frmInfo
+  rotate: false
+  xy: 125, 2
+  size: 482, 148
+  orig: 482, 148
+  offset: 0, 0
+  index: -1
+frmTakeMoney
+  rotate: false
+  xy: 976, 141
+  size: 433, 623
+  orig: 433, 623
+  offset: 0, 0
+  index: -1
+frmWatch
+  rotate: false
+  xy: 1446, 577
+  size: 433, 623
+  orig: 433, 623
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 2, 5
+  size: 121, 146
+  orig: 121, 146
+  offset: 0, 0
+  index: -1
+harvest
+  rotate: false
+  xy: 724, 766
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+lv3
+  rotate: false
+  xy: 1846, 101
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lv4
+  rotate: false
+  xy: 1881, 726
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+noticeDlt
+  rotate: false
+  xy: 1411, 57
+  size: 433, 518
+  orig: 433, 518
+  offset: 0, 0
+  index: -1
+
+uiGame3.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+1
+  rotate: false
+  xy: 419, 154
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 1523, 1623
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 1688, 1623
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+18
+  rotate: false
+  xy: 419, 478
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1853, 1623
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+20
+  rotate: false
+  xy: 854, 867
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 254, 478
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 941, 1371
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 254, 154
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 689, 867
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 1193, 1623
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 1358, 1623
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+avt1
+  rotate: false
+  xy: 2, 45
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+avt10
+  rotate: false
+  xy: 2, 549
+  size: 250, 251
+  orig: 250, 251
+  offset: 0, 0
+  index: -1
+avt14
+  rotate: false
+  xy: 437, 1189
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+avt16
+  rotate: false
+  xy: 2, 297
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+avt18
+  rotate: false
+  xy: 689, 1443
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+avt19
+  rotate: false
+  xy: 689, 1191
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+avt2
+  rotate: false
+  xy: 941, 1695
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+avt20
+  rotate: false
+  xy: 437, 1694
+  size: 250, 251
+  orig: 250, 251
+  offset: 0, 0
+  index: -1
+avt4
+  rotate: false
+  xy: 689, 1695
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+avt7
+  rotate: false
+  xy: 437, 1441
+  size: 250, 251
+  orig: 250, 251
+  offset: 0, 0
+  index: -1
+avt8
+  rotate: false
+  xy: 437, 937
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+frmSetting
+  rotate: false
+  xy: 2, 802
+  size: 433, 518
+  orig: 433, 518
+  offset: 0, 0
+  index: -1
+frmUnlock
+  rotate: false
+  xy: 2, 1322
+  size: 433, 623
+  orig: 433, 623
+  offset: 0, 0
+  index: -1
+lv5
+  rotate: false
+  xy: 941, 1219
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lv6
+  rotate: false
+  xy: 254, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lv7
+  rotate: false
+  xy: 406, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1

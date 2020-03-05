@@ -1,0 +1,41 @@
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:23
+-keep class android.support.multidex.MultiDexApplication { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:23
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:66
+-keep class com.crashlytics.android.CrashlyticsInitProvider { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:146
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:152
+-keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:82
+-keep class com.google.android.gms.analytics.AnalyticsJobService { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:72
+-keep class com.google.android.gms.analytics.AnalyticsReceiver { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:78
+-keep class com.google.android.gms.analytics.AnalyticsService { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:97
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:88
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:142
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:122
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:136
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:117
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:132
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:48
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:102
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:111
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:32
+-keep class com.jkstudiogroup.template.AndroidLauncher { <init>(); }
+# Referenced at /Users/dungle/.gradle/caches/transforms-2/files-2.1/b8ed9c0171bfe624ffe5315af39efdf4/res/layout/browser_actions_context_menu_page.xml:5
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+

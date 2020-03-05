@@ -1,0 +1,4 @@
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:23
+-keep class android.support.multidex.MultiDexApplication { <init>(); }
+# Referenced at /Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/merged_manifests/release/AndroidManifest.xml:23
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }

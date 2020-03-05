@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "RUBY",
+    "price": 10,
+    "info": "Người thừa kế xuất\n sắc của gia đình\n Thần Bếp. Yêu bếp\n và thích nấu ăn."
+  },
+  {
+    "id": 2,
+    "name": "SUNNY",
+    "price": 100,
+    "info": " Cô nàng là cô\n gái tinh nghịch,\n tự tin và kiêu hãnh,\ntựa như ánh mặt\n trời rực rỡ."
+
+
+  },
+  {
+    "id": 3,
+    "name": "Mee Mee",
+    "price": 150,
+    "info": "Từ nhỏ, Mee Mee\n đã thuộc dạng \n'con nhà người ta'\n. Cô có một tính cách \nhiện đại và nhiều \nsở thích thú vị."
+
+  },
+  {
+    "id": 4,
+    "name": "ANN",
+    "price": 200,
+    "info": "Cô gái luôn nhìn\n thấy được hàng ngàn\n sự thịnh vượng, hiểu\n được sự ấm áp\n và lạnh lẽo trên\n thế giới."
+
+  },
+  {
+    "id": 5,
+    "name": "ANTHEA",
+    "price": 250,
+    "info": "là một chủ cửa\n hàng hoa, lớn lên\n với hoa từ nhỏ.\n Cô như một bài\n hát ngọt ngào mang\n giai điệu nồng nàn."
+
+  },
+  {
+    "id": 6,
+    "name": "AURELIA",
+    "price": 300,
+    "info": "Cô nàng hoa hướng\n dương luôn có tình\n cảm đặc biệt với\n trẻ em. Cô luôn\n khiến những đứa trẻ\n nghịch ngợm trở nên\n ngoan ngoãn."
+
+  },
+  {
+    "id": 7,
+    "name": "CHERRY",
+    "price": 350,
+    "info": "Cherry là cô gái\n thích nhảy múa,\n như bông hoa anh\n đào nhẹ nhàng chuyển\n động."
+
+  },
+  {
+    "id": 8,
+    "name": "DONNA",
+    "price": 400,
+    "info": "Cô nàng ngây thơ,\n tốt bụng và đáng yêu.\n Cô ấy có một nụ cười\n đẹp và bản chất đơn\n giản, thuần khiết."
+
+  },
+  {
+    "id": 9,
+    "name": "EMILY",
+    "price": 450,
+    "info": "Cô nàng lịch thiệp\n và mang một nụ cười\n tỏa nắng, tính cách\n hiền lành cùng trái\n tim kiên định."
+
+  },
+  {
+    "id": 10,
+    "name": "ERICA",
+    "price": 500,
+    "info": "Cô gái thuần khiết\n tốt bụng, luôn luôn\n giúp đỡ người khác\n với mong muốn thế\n giới trở nên tốt\n đẹp hơn."
+
+  },
+  {
+    "id": 11,
+    "name": "FIONA",
+    "price": 550,
+    "info": "Fiona , một cô gái \ntheo đuổi nghệ thuật.\n Cô luôn nuôi niềm \nđam mê cháy bỏng \nvới nghệ thuật."
+
+  },
+  {
+    "id": 12,
+    "name": "LILY",
+    "price": 600,
+    "info": "Lily đã trở thành \nmột cô gái xinh đẹp,\n mạnh mẽ sau cuộc \ntàn sát của thế giới."
+
+  },
+  {
+    "id": 13,
+    "name": "JENA",
+    "price": 650,
+    "info": "Jena là một cô gái\n sống nội tâm, giống\n như một viên đá\n quý dần phát sáng."
+
+  },
+  {
+    "id": 14,
+    "name": "LANI",
+    "price": 700,
+    "info": "Cô gái như hoa\n bồ công anh, luôn\n trẻ trung và tỏa\n ra những tia ấm áp."
+
+  },
+  {
+    "id": 15,
+    "name": "MILAN",
+    "price": 750,
+    "info": "Cô mang trong mình\n đầy sự kiêu hãnh,\n thông minh, vui vẻ\n và rực rỡ."
+
+  },
+  {
+    "id": 16,
+    "name": "ORIANA",
+    "price": 800,
+    "info": "Cô gái mang vẻ\n đẹp huyền bí của\n ánh trăng và trái\n tim ấm áp của\n mặt trời."
+
+  },
+  {
+    "id": 17,
+    "name": "LISA",
+    "price": 850,
+    "info": "Trái tim cô là\n một nơi luôn chứa\n sự náo nhiệt. Khi\n lớn lên, cô quyết\n định trở thành một\n nhân viên pha chế,\n ngày ngày ra vào\n quán bar phục vụ\n mọi người."
+
+  },
+  {
+    "id": 18,
+    "name": "STELLA",
+    "price": 900,
+    "info": "Nàng là một cô\n công chúa đằm thắm,\n dịu dàng như bông\n hoa anh đào."
+
+  },
+  {
+    "id": 19,
+    "name": "SOPHIA",
+    "price": 950,
+    "info": "Nhắc đến kiêu kỳ,\n sẽ là cô nàng\n Sophia, cô gái luôn\n thu hút được mọi\n ánh nhìn với nét đáng\n yêu và ngọt ngào\n của mình."
+
+  },
+  {
+    "id": 20,
+    "name": "MINA",
+    "price": 1000,
+    "info": "Mina mang trong mình\n tính cách đáng yêu,\n tinh nghịch,cô luôn mang\n đến nụ cười cho mọi\n người xung quanh."
+
+  }
+]
