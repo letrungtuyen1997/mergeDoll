@@ -91,7 +91,12 @@ public class GameScene extends GScreen{
         loadListDoll();
         farmScene = new FarmScene(this);
         ////// set default/////
-        eventBtnFarm(false);
+        try {
+            eventBtnFarm(false);
+
+        }catch (Exception e){
+            System.out.println(e);
+        }
         ///////
 //        sumMoneyinOff();
         setMoneyonline();
@@ -189,13 +194,17 @@ public class GameScene extends GScreen{
                 }
             }
             indexResult = indexMin;
+
             if(cardC!=null&&arrDoll.get(indexResult)!=null){
                 if(cardC.type!= arrDoll.get(indexResult).type||cardC.type==20&&arrDoll.get(indexResult).type==20){
                     swapCard(arrDoll, cardC, arrDoll.get(indexResult), p1);
 
                 }else {
-                    mergeDoll(arrDoll,cardC,arrDoll.get(indexResult));
-
+                    try {
+                        mergeDoll(arrDoll,cardC,arrDoll.get(indexResult));
+                    }catch (Exception e){
+                        swapCard(arrDoll, cardC, arrDoll.get(indexResult), p1);
+                    }
                 }
             }
             System.out.println("chose:"+cardC.type);
@@ -519,17 +528,13 @@ public class GameScene extends GScreen{
     }
 
     public void eventBtnFarm(boolean Status){
-        try {
-            farmScene.checkNewFlow();
-
-        }catch (Exception e){
-            System.out.println(e);
-        }
+        farmScene.checkNewFlow();
         farmScene.setStatus();
         //farmScene.header.updateExp(Config.Exp);
       //  farmScene.header.group.setVisible(Status);
         header.group.setZIndex(farmScene.group.getZIndex()+1);
         farmScene.group.setVisible(Status);
+
         for(Flower fl: farmScene.arrayFlower)
             fl.group.setVisible(Status);
     }
@@ -715,71 +720,74 @@ public class GameScene extends GScreen{
     }
     public void setMoneyonline() throws Exception {
         String date1 = GMain.prefs.getString("Timeoffline");
-        long yourmilliseconds = System.currentTimeMillis();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Date resultdate = new Date(yourmilliseconds);
-        String date2 = sdf.format(resultdate);
-        long d1 = getMillisFromDateString(date1, DATE_PATTERN);
-        long d2 = getMillisFromDateString(date2, DATE_PATTERN);
-        int dayDiff = DateUtils.hourDiff(d1,d2);
-        ////// money make in 5s //////
-        Long moneyRunTime = GMain.prefs.getLong("moneyRuntime");
-        ///// money make when offline ////
+        if (date1.equals("")==false){
+            long yourmilliseconds = System.currentTimeMillis();
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            Date resultdate = new Date(yourmilliseconds);
+            String date2 = sdf.format(resultdate);
 
-        Long moneyOffLine = ((((dayDiff*60)/5)*3)/2)*moneyRunTime;
-        ///////////// frame take money////////
-        if(moneyOffLine>0){
-            Config.monney+=moneyOffLine;
-            header.SetMonney(Config.monney);
-            Group group = new Group();
-            GStage.addToLayer(GLayer.top,group);
-            final GShapeSprite blackOverlay = new GShapeSprite();
-            blackOverlay.createRectangle(true, -GStage.getWorldWidth(),-GStage.getWorldHeight()/2, GStage.getWorldWidth()*2, GStage.getWorldHeight()*2);
-            blackOverlay.setColor(0,0,0,0.5f);
-            group.addActor(blackOverlay);
-            group.setScaleX(0);
-            group.setOrigin(Align.center);
-            group.setPosition(GStage.getWorldWidth()/2,GStage.getWorldHeight()/2,Align.center);
-            group.addAction(Actions.scaleTo(1,1,0.3f, Interpolation.swingOut));
-            Image frmTakeMoney = GUI.createImage(atlas,"frmTakeMoney");
-            frmTakeMoney.setPosition(0,0, Align.center);
-            group.addActor(frmTakeMoney);
-            /////// label money ////
-            Label label = new Label(""+Config.compressCoin(moneyOffLine,2),new Label.LabelStyle(font, Color.BROWN));
-            label.setFontScale(0.8f);
-            label.setOrigin(Align.center);
-            label.setAlignment(Align.center);
-            label.setPosition(0,120,Align.center);
-            group.addActor(label);
-            ////// btn Close /////
-            Image btnClose = GUI.createImage(atlas,"btnClose");
-            btnClose.setPosition(-frmTakeMoney.getWidth()/2+20,-frmTakeMoney.getHeight()/2+20,Align.center);
-            group.addActor(btnClose);
-            btnClose.addListener(new ClickListener(){
-                @Override
-                public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                    group.clear();
-                    group.remove();
-                    return super.touchDown(event, x, y, pointer, button);
-                }
-            });
-            //////// btn x2 coin //////
-            Image btnX2Coin = GUI.createImage(atlas,"btnX2Coin2");
-            btnX2Coin.setOrigin(Align.center);
-            btnX2Coin.setPosition(0,frmTakeMoney.getHeight()/2-btnX2Coin.getHeight()-20,Align.center);
-            group.addActor(btnX2Coin);
-            btnX2Coin.addListener(new ClickListener(){
-                @Override
-                public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                    SoundEffect.Play(SoundEffect.click);
-                    updateMoneyOffline(moneyOffLine,group);
-                    return super.touchDown(event, x, y, pointer, button);
-                }
-            });
+            long d1 = getMillisFromDateString(date1, DATE_PATTERN);
+            long d2 = getMillisFromDateString(date2, DATE_PATTERN);
+            System.out.println("day1"+d1);
+            System.out.println("day2"+d2);
+            int dayDiff = DateUtils.hourDiff(d1,d2);
+            ////// money make in 5s //////
+            Long moneyRunTime = GMain.prefs.getLong("moneyRuntime");
+            ///// money make when offline ////
 
+            Long moneyOffLine = ((((dayDiff*60)/5)*3)/2)*moneyRunTime;
+            ///////////// frame take money////////
+            if(moneyOffLine>0){
+                Config.monney+=moneyOffLine;
+                header.SetMonney(Config.monney);
+                Group group = new Group();
+                GStage.addToLayer(GLayer.top,group);
+                final GShapeSprite blackOverlay = new GShapeSprite();
+                blackOverlay.createRectangle(true, -GStage.getWorldWidth(),-GStage.getWorldHeight()/2, GStage.getWorldWidth()*2, GStage.getWorldHeight()*2);
+                blackOverlay.setColor(0,0,0,0.5f);
+                group.addActor(blackOverlay);
+                group.setScaleX(0);
+                group.setOrigin(Align.center);
+                group.setPosition(GStage.getWorldWidth()/2,GStage.getWorldHeight()/2,Align.center);
+                group.addAction(Actions.scaleTo(1,1,0.3f, Interpolation.swingOut));
+                Image frmTakeMoney = GUI.createImage(atlas,"frmTakeMoney");
+                frmTakeMoney.setPosition(0,0, Align.center);
+                group.addActor(frmTakeMoney);
+                /////// label money ////
+                Label label = new Label(""+Config.compressCoin(moneyOffLine,2),new Label.LabelStyle(font, Color.BROWN));
+                label.setFontScale(0.8f);
+                label.setOrigin(Align.center);
+                label.setAlignment(Align.center);
+                label.setPosition(0,120,Align.center);
+                group.addActor(label);
+                ////// btn Close /////
+                Image btnClose = GUI.createImage(atlas,"btnClose");
+                btnClose.setPosition(-frmTakeMoney.getWidth()/2+20,-frmTakeMoney.getHeight()/2+20,Align.center);
+                group.addActor(btnClose);
+                btnClose.addListener(new ClickListener(){
+                    @Override
+                    public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                        group.clear();
+                        group.remove();
+                        return super.touchDown(event, x, y, pointer, button);
+                    }
+                });
+                //////// btn x2 coin //////
+                Image btnX2Coin = GUI.createImage(atlas,"btnX2Coin2");
+                btnX2Coin.setOrigin(Align.center);
+                btnX2Coin.setPosition(0,frmTakeMoney.getHeight()/2-btnX2Coin.getHeight()-20,Align.center);
+                group.addActor(btnX2Coin);
+                btnX2Coin.addListener(new ClickListener(){
+                    @Override
+                    public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                        SoundEffect.Play(SoundEffect.click);
+                        updateMoneyOffline(moneyOffLine,group);
+                        return super.touchDown(event, x, y, pointer, button);
+                    }
+                });
+
+            }
         }
-
-
     }
     private void updateMoneyOffline(long money,Group group){
         if(GMain.platform.isVideoRewardReady()) {

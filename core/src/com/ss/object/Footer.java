@@ -100,8 +100,10 @@ public class Footer {
         bodyBin.setPosition(btnBin.getX(),btnBin.getY());
         //////// btn tuTorial /////
         btnTutorial = GUI.createImage(atlas,"btnTutorial");
+        btnTutorial.setOrigin(Align.center);
         btnTutorial.setPosition(btnFarm.getX()+btnFarm.getWidth()*2,GStage.getWorldHeight()-btnTutorial.getHeight()-30,Align.center);
         group.addActor(btnTutorial);
+        Anibtn(btnTutorial);
         //////// event Bin ///////
         eventBin();
         eventBtnRender();
@@ -122,7 +124,6 @@ public class Footer {
         for (int i=0;i<arrDollJs.size();i++){
             InfoDoll info = Gs.fromJson(arrDollJs.get(i), InfoDoll.class);
             arrayInfoDoll.add(info);
-
         }
         if(checkFirst==true){
             String S = GMain.prefs.getString("listShopDoll");
@@ -182,6 +183,17 @@ public class Footer {
                 return super.touchDown(event, x, y, pointer, button);
             }
         });
+    }
+    private void Anibtn(Image btn){
+        btn.addAction(Actions.sequence(
+                Actions.scaleTo(0.8f,0.8f,0.5f),
+                Actions.scaleTo(1f,1f,0.5f),
+                Actions.delay(2),
+                GSimpleAction.simpleAction((d,a)->{
+                    Anibtn(btn);
+                    return true;
+                })
+        ));
     }
     public void animationDlt(){
         btnBin.addAction(Actions.sequence(
@@ -257,7 +269,12 @@ public class Footer {
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
                 showFullScreen();
                 SoundEffect.Play(SoundEffect.click);
-                gameScene.eventBtnFarm(true);
+                try{
+                    gameScene.eventBtnFarm(true);
+
+                }catch (Exception e){
+                    System.out.println(e);
+                }
                 return super.touchDown(event, x, y, pointer, button);
             }
         });

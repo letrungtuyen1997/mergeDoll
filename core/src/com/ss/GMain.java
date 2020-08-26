@@ -95,10 +95,12 @@ public class GMain extends GDirectedGame {
   {
     SoundEffect.initSound();
     prefs = Gdx.app.getPreferences("MyData");
+//    prefs.clear();
+//    prefs.flush();
 //    prefs.putBoolean("checkFirstListDoll",false);
 //    prefs.putString("ListDollinGame","");
 //    prefs.putString("listShopDoll","");
-//    GMain.prefs.putLong("monney", 100000000);
+   // GMain.prefs.putLong("monney", 100000000);
 //    /////// save exp /////
 //    GMain.prefs.putLong("exp",0);
 //    /////// save typeMax /////
@@ -107,7 +109,7 @@ public class GMain extends GDirectedGame {
 //    GMain.prefs.putInteger("typeRender",0);
 //    prefs.flush();
 //      GMain.prefs.putString("ListFlowLv","");
-//      prefs.flush();
+     // prefs.flush();
 
     this.init();
       C.init();

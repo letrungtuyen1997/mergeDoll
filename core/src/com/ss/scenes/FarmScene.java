@@ -117,7 +117,13 @@ public class FarmScene  {
                 ListLock.get(i).setVisible(false);
                 System.out.println("check:"+arr);
                 if(arr!=null){
-                    int type = arr.get(i).getAsInt();
+                    int type=1;
+                    try {
+                        type = arr.get(i).getAsInt();
+
+                    }catch (Exception e){
+//                        type = arr.get(i).getAsInt();
+                    }
                     Flower flower = new Flower(ListLock.get(i).getX()+ListLock.get(i).getWidth()/2,ListLock.get(i).getY()-ListLock.get(i).getHeight()/2+20,type,atlas,font,this,gameScene.header);
                     arrayFlower.add(flower);
                     arrPercentMoney.add(flower.action.getTime());
@@ -133,17 +139,25 @@ public class FarmScene  {
         }
     }
     public void checkNewFlow(){
-        for (int i=0;i<ListLock.size;i++){
-            if(CheckLock(i)==1&&i>=arrayFlower.size){
-                ListLock.get(i).setVisible(false);
-                Flower flower = new Flower(ListLock.get(i).getX()+ListLock.get(i).getWidth()/2,ListLock.get(i).getY()-ListLock.get(i).getHeight()/2+20,1,atlas,font,this,gameScene.header);
-                arrayFlower.add(flower);
-                arrPercentMoney.add(flower.action.getTime());
-                arrFlowLv.add(flower.type);
-                arrFlowLv.add(flower.type);
+        int index =0;
+        try {
+            for (int i=0;i<ListLock.size;i++){
+                if(CheckLock(i)==1&&i>=arrayFlower.size){
+                    index=i;
+                    ListLock.get(i).setVisible(false);
+                    Flower flower = new Flower(ListLock.get(i).getX()+ListLock.get(i).getWidth()/2,ListLock.get(i).getY()-ListLock.get(i).getHeight()/2+20,1,atlas,font,this,gameScene.header);
+                    arrayFlower.add(flower);
+                    arrPercentMoney.add(flower.action.getTime());
+                    arrFlowLv.add(flower.type);
+                    arrFlowLv.add(flower.type);
+                }
             }
+            saveArrFlow();
+        }catch (Exception e){
+            GMain.platform.TrackCustomEvent("size"+ListLock.size);
+            GMain.platform.TrackCustomEvent("index"+index);
         }
-        saveArrFlow();
+
 
     }
     private int CheckLock(int index){
@@ -247,7 +261,12 @@ public class FarmScene  {
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
                 gameScene.foter.showFullScreen();
                 SoundEffect.Play(SoundEffect.click);
-                gameScene.eventBtnFarm(false);
+                try {
+                    gameScene.eventBtnFarm(false);
+
+                }catch (Exception e){
+                    System.out.println(e);
+                }
                 return super.touchDown(event, x, y, pointer, button);
             }
         });

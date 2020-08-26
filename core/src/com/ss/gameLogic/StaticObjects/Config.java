@@ -29,6 +29,7 @@ public class Config {
   public static boolean X2Coin = false;
   public static int checkShowAds = 0;
 
+
   public static String compressCoin(long num, int numOf){
     String str = "0";
     String dv = "";

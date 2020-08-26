@@ -1,4 +1,4 @@
-#Wed Mar 04 16:00:11 ICT 2020
+#Wed Aug 05 15:04:21 ICT 2020
 base.0=/Users/dungle/Desktop/libgdx/Fashion2/android/build/intermediates/transforms/r8/release/0
 path.0=classes.dex
 renamed.0=classes.dex
